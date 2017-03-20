@@ -24,12 +24,12 @@
     	<repository>
     		<id>nexus</id>
         <name>Internal Releases</name>
-        <url>http://192.168.56.102:8081/nexus/content/repositories/releases/</url>
+        <url>https://192.168.56.102:8443/nexus/content/repositories/releases/</url>
       </repository>
       <snapshotRepository>
         <id>nexus</id>
         <name>Internal Snapshot Releases</name>
-        <url>http://192.168.56.102:8081/nexus/content/repositories/snapshots/</url>
+        <url>https://192.168.56.102:8443/nexus/content/repositories/snapshots/</url>
       </snapshotRepository>
     </distributionManagement>
     <scm>
